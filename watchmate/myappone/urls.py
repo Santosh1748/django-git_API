@@ -1,6 +1,7 @@
-from django.urls import path
-from myappone.views import movie_list
+# from django.urls import path
+# from myappone import views
 
-urlpatterns = [
-    path('list/', movie_list, name = 'movie-list')
-]
+# urlpatterns = [
+#     path('list/', views.movie_list, name = 'movie-list'),
+#     path('<int:pk>/', views.movie_details ,name ='movie-detail'),
+# ]
